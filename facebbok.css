@@ -183,3 +183,24 @@
     overflow-y:auto;
     height: 350px;
 }
+#shortcuts{
+    font-size: 15px;
+    margin-left: 6px;
+    color:#65676b;
+    font-family: inherit;
+    position: relative;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#editbtn{
+    color:#3498db;
+    font-size: 18px;
+    border-style: none;
+    float: right;
+    margin-right: 6px;
+    height: 35px;
+}
+#editbtn:hover{
+    background-color:#dfe6e9;
+    cursor: pointer;
+}
