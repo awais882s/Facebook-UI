@@ -13,14 +13,12 @@
     background-color: white;
     height: 60px;
     width: 1335px;
-    /* border: 1px solid black; */
 }
 
 .left-bar {
     background-color: whitesmoke;
     width: 350px;
     height: 543px;
-    border: 1px solid black;
     margin-top: 60px;
     
 }
@@ -197,10 +195,57 @@
     font-size: 18px;
     border-style: none;
     float: right;
-    margin-right: 6px;
+    margin-right: 8px;
     height: 35px;
 }
 #editbtn:hover{
     background-color:#dfe6e9;
     cursor: pointer;
+}
+/* shortcuts sections */
+#para2{
+    font-size: 15px;
+
+    font-weight: bold;
+    margin-left: 3px;
+}
+#my2{
+    border-radius: 20%;
+    margin-top: 6px;
+    margin-left: 0px;
+    width: 40px;
+}
+.sidebar2{
+    display: flex;
+    border-style: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    outline: none;
+    height: 50px;
+    border-radius:10px;
+    width: 340px;
+    height: 48px;
+    background-color: transparent;
+}
+.sidebar2:hover{
+    background-color: #dfe6e9;
+    height: 55px;
+    cursor: pointer;
+}
+
+
+/* center section */
+.section_center{
+    height: 150px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-image: url(/sidebar/awais.jpg);
+    background-size:cover;
+    border-style: none;
+
+}
+.section_center:hover{
+
 }
