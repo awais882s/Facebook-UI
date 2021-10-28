@@ -24,7 +24,6 @@
 
 .center {
   background-color: whitesmoke;
-  border: 1px solid black;
   height: 543px;
   width: 600px;
   margin-top: 5px;
@@ -375,4 +374,46 @@
 }
 #photos:hover{
   background-color: #dfe6e9;
+}
+
+
+/* post here */
+
+.Post{
+  height: 300px;
+  width: 510px;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  
+}
+.activity{
+  height: 50px;
+  width: 50px;
+  margin-top: 17px;
+  margin-left: 15px;
+  border-radius: 50px;
+  border-style: none;
+  background-image: url("./sidebar/awais.jpg");
+  background-size: cover;
+}
+.id_name{
+  display: inline;
+  margin-left: 53px;
+  font-size: medium;
+  margin-top: 15px;
+
+
+
+}
+._hours{ 
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+._blessings{
+  margin-left: 20px;
+  font-size: large;
+  font-family: sans-serif;
 }
