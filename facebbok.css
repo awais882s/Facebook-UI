@@ -1,251 +1,287 @@
 #main-div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
-    display: flex;
+  display: flex;
 }
 
 .header {
-    display: flex;
-    position: fixed;
-    background-color: white;
-    height: 60px;
-    width: 1335px;
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 60px;
+  width: 1335px;
 }
 
 .left-bar {
-    background-color: whitesmoke;
-    width: 350px;
-    height: 543px;
-    margin-top: 60px;
-    
+  background-color: whitesmoke;
+  width: 350px;
+  height: 543px;
+  margin-top: 60px;
 }
 
 .center {
-    background-color: whitesmoke;
-    border: 1px solid black;
-    height: 543px;
-    width: 600px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-top: 60px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  height: 543px;
+  width: 600px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-top: 60px;
 }
 
 .right-bar {
-    background-color: whitesmoke;
-    width: 372px;
-    height: 543px;
-    border: 1px solid black;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-top: 60px;
+  background-color: whitesmoke;
+  width: 372px;
+  height: 543px;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-top: 60px;
 }
 
 .fb {
-    padding-top: 5px;
-    padding-left: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 .search {
-    display: flex;
-    border-radius: 50px;
-    letter-spacing: normal;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color: whitesmoke;
-    word-spacing: normal;
-    border-style: none;
-    font-weight: normal;
-    box-sizing: border-box;
-    width: 250px;
-    font-size: 0.9375rem;
-    padding-left: 40px;
-    outline: none;
-    text-indent: 0px;
+  display: flex;
+  border-radius: 50px;
+  letter-spacing: normal;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: whitesmoke;
+  word-spacing: normal;
+  border-style: none;
+  font-weight: normal;
+  box-sizing: border-box;
+  width: 250px;
+  font-size: 0.9375rem;
+  padding-left: 40px;
+  outline: none;
+  text-indent: 0px;
 }
-
 
 /* button home facebook */
 
 .icons {
-    display: flex;
-    height: 50px;
-    margin-left: 28px;
-    width: 105px;
-    margin-top: 5px;
-    border-radius: 4px;
-    align-items: center;
-    padding-left: 36px;
-    outline: none;
-    border-style: none;
-    background-color: transparent;
-    border-radius: 6px;
-    cursor: pointer;
-    flex-direction: row;
-    text-decoration: none;
+  display: flex;
+  height: 50px;
+  margin-left: 28px;
+  width: 105px;
+  margin-top: 5px;
+  border-radius: 4px;
+  align-items: center;
+  padding-left: 36px;
+  outline: none;
+  border-style: none;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-direction: row;
+  text-decoration: none;
 }
 
 .icons:hover {
-    background-color: whitesmoke;
-    border-bottom: 3px solid rgb(25, 0, 255);
+  background-color: whitesmoke;
+  border-bottom: 3px solid rgb(25, 0, 255);
 }
-
 
 /* profiles image */
 
 .awais {
-    border-radius: 50%;
-    height: 50px;
-    margin-top: 5px;
-    margin-left: 15px;
+  border-radius: 50%;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 15px;
 }
 
 #awais {
-    border-radius: 50%;
-    outline: none;
-    border-style: none;
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-weight: bold;
-    background-color: transparent;
-    cursor: pointer;
-
+  border-radius: 50%;
+  outline: none;
+  border-style: none;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 #awais:hover {
-    background-color: #dfe6e9;
-    cursor: pointer;
+  background-color: #dfe6e9;
+  cursor: pointer;
 }
-
 
 /* menu buttons for facebook */
 
 .menu-bar {
-    border-radius: 30px;
-    border-style: none;
-    outline: none;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    width: 50px;
-    background-color: whitesmoke;
+  border-radius: 30px;
+  border-style: none;
+  outline: none;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 50px;
+  background-color: whitesmoke;
 }
 
 .menu-bar:hover {
-    background-color: #dfe6e9;
+  background-color: #dfe6e9;
 }
 
 /* left bar */
-.sidebar{
-    display: flex;
-    border-style: none;
-    margin-left: 5px;
-    margin-top: 10px;
-    outline: none;
-    height: 50px;
-    border-radius:15px;
-    width: 300px;
-    height: 48px;
-    background-color: transparent;
+.sidebar {
+  display: flex;
+  border-style: none;
+  margin-left: 5px;
+  margin-top: 10px;
+  outline: none;
+  height: 50px;
+  border-radius: 15px;
+  width: 300px;
+  height: 48px;
+  background-color: transparent;
 }
-.sidebar:hover{
-    background-color:#dfe6e9;
-    cursor: pointer;
+.sidebar:hover {
+  background-color: #dfe6e9;
+  cursor: pointer;
 }
-#my1{
-    border-radius: 50%;
-    margin-top: 2px;
+#my1 {
+  border-radius: 50%;
+  margin-top: 2px;
 }
-#para1{
-    font-size: 15px;
+#para1 {
+  font-size: 15px;
 
-    font-weight: bold;
-    margin-left: 6px;
+  font-weight: bold;
+  margin-left: 6px;
 }
-#frnd{
-    margin-top: 0px;
+#frnd {
+  margin-top: 0px;
 }
-#see{
-    border-radius: 50%;
-    height: 30px;
-    width: 28px;
-    margin-top: 4px;
-    margin-left: 4px;
+#see {
+  border-radius: 50%;
+  height: 30px;
+  width: 28px;
+  margin-top: 4px;
+  margin-left: 4px;
 }
-.navbar{
-    overflow-y:auto;
-    height: 350px;
+.navbar {
+  overflow-y: auto;
+  height: 350px;
 }
-#shortcuts{
-    font-size: 15px;
-    margin-left: 6px;
-    color:#65676b;
-    font-family: inherit;
-    position: relative;
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#shortcuts {
+  font-size: 15px;
+  margin-left: 6px;
+  color: #65676b;
+  font-family: inherit;
+  position: relative;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#editbtn{
-    color:#3498db;
-    font-size: 18px;
-    border-style: none;
-    float: right;
-    margin-right: 8px;
-    height: 35px;
+#editbtn {
+  color: #3498db;
+  font-size: 18px;
+  border-style: none;
+  float: right;
+  margin-right: 8px;
+  height: 35px;
 }
-#editbtn:hover{
-    background-color:#dfe6e9;
-    cursor: pointer;
+#editbtn:hover {
+  background-color: #dfe6e9;
+  cursor: pointer;
 }
 /* shortcuts sections */
-#para2{
-    font-size: 15px;
+#para2 {
+  font-size: 15px;
 
-    font-weight: bold;
-    margin-left: 3px;
+  font-weight: bold;
+  margin-left: 3px;
 }
-#my2{
-    border-radius: 20%;
-    margin-top: 6px;
-    margin-left: 0px;
-    width: 40px;
+#my2 {
+  border-radius: 20%;
+  margin-top: 6px;
+  margin-left: 0px;
+  width: 40px;
 }
-.sidebar2{
-    display: flex;
-    border-style: none;
-    margin-left: 5px;
-    margin-top: 10px;
-    outline: none;
-    height: 50px;
-    border-radius:10px;
-    width: 340px;
-    height: 48px;
-    background-color: transparent;
+.sidebar2 {
+  display: flex;
+  border-style: none;
+  margin-left: 5px;
+  margin-top: 10px;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  width: 340px;
+  height: 48px;
+  background-color: transparent;
 }
-.sidebar2:hover{
-    background-color: #dfe6e9;
-    height: 55px;
-    cursor: pointer;
+.sidebar2:hover {
+  background-color: #dfe6e9;
+  height: 55px;
+  cursor: pointer;
 }
-
 
 /* center section */
-.section_center{
-    height: 150px;
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 30px;
+.section_center {
+  height: 160px;
+  width: 110px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 20px;
+ 
+}
+#AWAIS_IQBAL{
     background-image: url(/sidebar/awais.jpg);
-    background-size:cover;
+    background-size: cover;
     border-style: none;
+    cursor: pointer;
+    background-position: center;
 
+}
+#AWAIS_{
+    background-image: url(./sidebar/laugh.jpg);
+    background-size: cover;
+    border-style: none;
+    cursor: pointer;
+    background-position: center;
+
+}
+#GCUF_{
+    background-image: url("./sidebar/gcuf.jpg");
+    background-size: cover;
+    border-style: none;
+    cursor: pointer;
+    background-position: center;
+}
+#Umbrella{
+    background-image: url("./sidebar/love\ life.jpg");
+    background-size: cover;
+    border-style: none;
+    cursor: pointer;
+    background-position: center;
+}
+
+.para3 {
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 125px;
 }
 .section_center:hover{
-
-}
+    height: 200px;
+    width: 200px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .section_center:hover {
+    width: 100px;
+    height: 100px;
+  }
