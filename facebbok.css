@@ -397,12 +397,15 @@
   border-style: none;
   background-image: url("./sidebar/awais.jpg");
   background-size: cover;
+  cursor: pointer;
 }
+
 .id_name{
   display: inline;
   margin-left: 53px;
   font-size: medium;
   margin-top: 15px;
+  cursor: pointer;
 
 
 
@@ -416,4 +419,8 @@
   margin-left: 20px;
   font-size: large;
   font-family: sans-serif;
+  cursor: pointer;
+}
+#_blessings{
+  cursor: pointer;
 }
