@@ -54,7 +54,7 @@
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: whitesmoke;
+  background-color:#dfe6e9;
   word-spacing: normal;
   border-style: none;
   font-weight: normal;
@@ -235,37 +235,34 @@
   margin-top: 20px;
   margin-left: 30px;
   border-radius: 20px;
- 
 }
-#AWAIS_IQBAL{
-    background-image: url(/sidebar/awais.jpg);
-    background-size: cover;
-    border-style: none;
-    cursor: pointer;
-    background-position: center;
-
+#AWAIS_IQBAL {
+  background-image: url(./sidebar/awais.jpg);
+  background-size: cover;
+  border-style: none;
+  cursor: pointer;
+  background-position: center;
 }
-#AWAIS_{
-    background-image: url(./sidebar/laugh.jpg);
-    background-size: cover;
-    border-style: none;
-    cursor: pointer;
-    background-position: center;
-
+#AWAIS_ {
+  background-image: url(./sidebar/laugh.jpg);
+  background-size: cover;
+  border-style: none;
+  cursor: pointer;
+  background-position: center;
 }
-#GCUF_{
-    background-image: url("./sidebar/gcuf.jpg");
-    background-size: cover;
-    border-style: none;
-    cursor: pointer;
-    background-position: center;
+#GCUF_ {
+  background-image: url("./sidebar/gcuf.jpg");
+  background-size: cover;
+  border-style: none;
+  cursor: pointer;
+  background-position: center;
 }
-#Umbrella{
-    background-image: url("./sidebar/love\ life.jpg");
-    background-size: cover;
-    border-style: none;
-    cursor: pointer;
-    background-position: center;
+#Umbrella {
+  background-image: url("./sidebar/love\ life.jpg");
+  background-size: cover;
+  border-style: none;
+  cursor: pointer;
+  background-position: center;
 }
 
 .para3 {
@@ -273,15 +270,62 @@
   font-weight: bold;
   margin-top: 125px;
 }
-.section_center:hover{
-    height: 200px;
-    width: 200px;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    transition: all 2s ease;
-  }
-  .section_center:hover {
-    width: 100px;
-    height: 100px;
-  }
+.section_center:hover {
+  height: 200px;
+  width: 200px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.section_center:hover {
+  width: 100px;
+  height: 100px;
+}
+
+/*text bar of facebook */
+.text_bar {
+    display: flex;
+  height: 150px;
+  width: 510px;
+  background-color: white;
+  border-style: none;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 14px;
+}
+#profile_image {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 18px;
+  border-radius: 50%;
+  border-style: none;
+  background-image: url("./sidebar/love\ life.jpg");
+  background-size: cover;
+  cursor: pointer;
+}
+#search_bar {
+  display: flex;
+  border-radius: 50px;
+  letter-spacing: normal;
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color:#dfe6e9;
+  word-spacing: normal;
+  border-style: none;
+  font-weight: normal;
+  box-sizing: border-box;
+  width: 400px;
+  height: 50px;
+  font-size: medium;
+  padding-left: 40px;
+  outline: none;
+  padding-left: 14px;
+  cursor: pointer;
+}
+#search_bar:hover{
+    background-color: #dcdde1;
+}
+/* action buttons live video etc */
