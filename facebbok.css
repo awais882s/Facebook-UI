@@ -424,3 +424,48 @@
 #_blessings{
   cursor: pointer;
 }
+
+
+/* right bar section */
+
+
+
+#_sponsored{
+  margin-left: 12px;
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size:19px;
+  margin-top: 13px;
+}
+
+._Pizza{
+  height: 40px;
+  width: 40px;
+  margin-left: 18px;
+  margin-top: -18px;
+  border-radius: 50px;
+  border-style: none;
+  background-image: url("./sidebar/pizza-1.jpg");
+  background-size: cover;
+}
+#lebo{
+  display: inline-flex;
+  margin-left: 45px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#para6{
+  margin-left: 70px;
+  margin-top: -13px;
+  padding-top: 0px;
+  font-family: sans-serif;
+  font-stretch: narrower;
+}
+#pizalovely{
+  margin-left: 60px;
+  border-radius: 20px;
+  margin-top: -10px;
+  margin-right: 30px;
+}
