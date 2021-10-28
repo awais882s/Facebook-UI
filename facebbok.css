@@ -288,9 +288,9 @@
     display: flex;
   height: 150px;
   width: 510px;
-  background-color: white;
+  background-color:white;
   border-style: none;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 40px;
   border-radius: 14px;
 }
@@ -312,7 +312,7 @@
   margin-left: 60px;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color:#dfe6e9;
+  background-color:whitesmoke;
   word-spacing: normal;
   border-style: none;
   font-weight: normal;
@@ -326,6 +326,53 @@
   cursor: pointer;
 }
 #search_bar:hover{
-    background-color: #dcdde1;
+    background-color:#dfe6e9;
 }
 /* action buttons live video etc */
+.action_buttons{
+  display: flex;
+  margin-top:90px;
+  width: 100px;
+  padding-left: 10px;
+  margin-left: -30px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 5px;
+  width: 120px;
+  border-style: none;
+  cursor: pointer;
+  justify-content: flex-start;
+  justify-items: left;
+  background-color: white;
+
+}
+#live{
+  padding-top: 4px;
+}
+.para5{
+  margin-top: 5px;
+  padding-left:10px;
+  font-size: medium;
+}
+.action_buttons:hover{
+  background-color: #dfe6e9;
+
+}
+#photos{
+  margin-top: 90px;
+  margin-left: 20px;
+  height: 50px;
+  width: 120px;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+#png{
+  margin-top: 1px;
+  font-size: medium;
+  
+}
+#photos:hover{
+  background-color: #dfe6e9;
+}
