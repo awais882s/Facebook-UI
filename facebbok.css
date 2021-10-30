@@ -18,13 +18,13 @@
 .left-bar {
   background-color: whitesmoke;
   width: 350px;
-  height: 543px;
+  height:700px;
   margin-top: 60px;
 }
 
 .center {
   background-color: whitesmoke;
-  height: 543px;
+  height: 700px;
   width: 600px;
   margin-top: 5px;
   margin-left: 5px;
@@ -34,8 +34,7 @@
 .right-bar {
   background-color: whitesmoke;
   width: 372px;
-  height: 543px;
-  border: 1px solid black;
+  height: 700px;
   margin-left: 5px;
   margin-top: 5px;
   margin-top: 60px;
